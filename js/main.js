@@ -7,10 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var scrollY = window.scrollY;
 
     if (scrollY > 60) {
-      header.style.background = 'rgba(255, 255, 255, 0.97)';
-      header.style.boxShadow = '0 1px 8px rgba(0, 0, 0, 0.06)';
+      header.style.boxShadow = '0 1px 8px rgba(0, 0, 0, 0.15)';
     } else {
-      header.style.background = 'rgba(255, 255, 255, 0.92)';
       header.style.boxShadow = 'none';
     }
 
